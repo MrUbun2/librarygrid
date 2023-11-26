@@ -5,4 +5,12 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[build-dependencies]
+flate2 = "1.0.28"
+tar = "0.4.40"
+
 [dependencies]
+flate2 = "1.0.28"
+home = "0.5.5"
+lazy_static = "1.4.0"
+tar = "0.4.40"
